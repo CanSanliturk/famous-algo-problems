@@ -11,7 +11,7 @@ struct BTNode {
 	BTNode<T>* left = nullptr;
 	BTNode<T>* right = nullptr;
 	BTNode(T data) : data(data) { }
-
+	BTNode(BTNode& other) = delete;
 	~BTNode() {
 		delete left;
 		delete right;
