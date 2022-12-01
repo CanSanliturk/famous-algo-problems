@@ -4,9 +4,6 @@
 
 using namespace std;
 
-// each time, we can climb 1 or 2 stairs. how many distinct ways
-// do we have to climb n stairs?
-
 namespace Recursive {
 	int longestCommonSubsequence(string str1, string str2, int i = 0, int j = 0) {
 
